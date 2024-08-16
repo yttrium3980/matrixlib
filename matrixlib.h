@@ -6,10 +6,10 @@ using namespace std;
 
 struct Matrix
 {
-float e[16];              
+     float e[16];              
 
-inline float& operator[](int index) {return e[index];}
-inline const float& operator[](int index) const {return e[index];}
+     inline float& operator[](int index) {return e[index];}
+     inline const float& operator[](int index) const {return e[index];}
 };
 
 struct Vector
